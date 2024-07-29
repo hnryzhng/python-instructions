@@ -4,6 +4,7 @@ Sections
 - [Create a pipenv](#create-a-pipenv)
 - [Install dependencies for a Python project](#install-dependencies-for-a-python-project)
 - [Deploy a Python AWS Lambda function](#deploy-a-python-aws-lambda-function)
+- [Run Python unit tests](#run-python-unit-tests)
 
 
 ## Create a pipenv 
