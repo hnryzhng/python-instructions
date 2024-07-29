@@ -22,13 +22,15 @@ $ source myenv/bin/activate
 
 ## Install dependencies for a Python project
 
+1. Activate the virtual environment according to the above
+
+2a. Installing a single package
 ```
-# 1. Activate the virtual environment according to the above
-
-# 2a. Installing a single package
 $ pip install PACKAGE_NAME
+```
+# 2b. Install packages from requirements.txt
 
-# 2b. Install packages in requirements.txt
+```
 $ pip install -r requirements.txt
 
 # file: requirements.txt
