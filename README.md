@@ -66,4 +66,15 @@ $ zip -r ../lambda_function.zip .
 $ cd ..
 ```
 
-5. Upload ZIP file using AWS console in Lambda dashboard 
+5. Upload ZIP file using AWS console in Lambda dashboard
+
+## Run Python unit tests
+Go to root directory, then run the following commands
+
+```
+# Run all tests in /tests directory
+$ python3 -m unittest discover tests
+
+# Run specific test file
+$ python tests/test_helpers.py
+```
