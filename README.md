@@ -29,13 +29,13 @@ $ source myenv/bin/activate
 $ pip install PACKAGE_NAME
 ```
 # 2b. Install packages from requirements.txt
-
+- Define file "requirements.txt"
+```
+# mypackage==PACKAGE_VERSION
+```
+- Install packages from the file.
 ```
 $ pip install -r requirements.txt
-
-# file: requirements.txt
-# mypackage==PACKAGE_VERSION
-
 ```
 
 
